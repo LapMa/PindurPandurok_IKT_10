@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miskolc </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="Bootstrap/swalalert.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/lgogmiskolc.png" class="logo" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Főoldal</a>
+                </li>
+              <li class="nav-item" class="active">
+                <a class="nav-link" href="#" style="color: #fff;">Programok</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="történetek.html">Története</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)" onclick="kimutat()">Elérhetőség</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Keresés...">
+              <button class="btn btn-primary" type="button">Keresés</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <section class="container">
+        <div class="cim">
+          <h1>Ajánlott Programok</h1>
+        </div >
+        <div class="program">
+              <span>
+                <h4>Papagáj kiállítás</h4>
+              </span>
+              Április 29. 
+              <br>
+              Szombat 10:00-18:00
+              <br>
+              Helyszín: Ifjúsági Ház
+              <br>
+              Jegyár: 1500 Ft
+              <img src="img/papagaj.jpg" alt="Papagáj" title="Papagáj" class="program-img" >
+          </span>
+        </div>
+        <div class="program">
+            <span>
+                <h4>Mazsola</h4>
+              </span>
+              Április 29. 
+              <br>
+              Játsszák: Bablena Vanda, Kulcsár Laura, Láng Bernadett
+              <br>
+              Ajánlott életkor: 3+
+              <br>
+              <img src="img/mazsola.jpg" alt="Mazsola" title="Mazsola" class="program-img" >
+            </span>
+        </div>
+        <div class="program">
+          <span>
+              <h4>PARDES</h4>
+            </span>
+            Április 29. 
+            <br>
+            Szombat 20:00 - 00:00
+            <br>
+            Miskolci Nemzeti Nagyszínház
+            <br>
+            Táncelőadás
+            <br>
+            <img src="img/Pardes.jpg" alt="PARDES" title="PARDES" class="program-img" >
+          </span>
+        </div>
+        <div class="program">
+          <span>
+              <h4>Színpadavató Családi nap </h4>
+            </span>
+            Április 30. 
+            <br>
+            Vasárnap 10:00 - 15:00
+            <br>
+            Görömbölyi Művelődési Ház 
+            <br>
+            Ingyenesen látogatható
+            <br>
+            <img src="img/Goromboly_CommunalHall.jpg" alt="Színpadavató Családi nap" title="Színpadavató Családi nap" class="program-img" >
+          </span>
+        </div>
+        <div class="program">
+          <span>
+              <h4>Evangélikus istentisztelet </h4>
+            </span>
+            Április 30. 
+            <br>
+            vasárnap 11:00 - 12:00
+            <br>
+            A hónap 2. és 4. vasárnapján úrvacsoraosztás követi az istentiszteletet.
+            <br>
+            <img src="img/istentisztelet.jfif" alt="Evangélikus istentisztelet" title="Evangélikus istentisztelet" class="program-img" >
+          </span>
+        </div>
+        <div class="program">
+          <span>
+              <h4>Az ember,akit Ottónak hívnak-MOZI</h4>
+            </span>
+            Április 30. 
+            <br>
+            Vasárnap 15:00 - 17:15
+            <br>
+            Az ember, akit Ottónak hívnak - MOZI
+            <br>
+            <img src="img/azemberakitottonakhivnak_2.jpg" alt="Az ember,akit Ottónak hívnak-MOZI" title="Az ember,akit Ottónak hívnak-MOZI" class="program-img" >
+          </span>
+        </div>
+        <div class="program">
+          <span>
+              <h4>Orfeo Zenekar és Purcell Kórus</h4>
+            </span>
+            Április 30. 
+            <br>
+            Vasárnap  19:00
+            <br>
+            Művészetek Háza - Hangversenyterem
+            <br>
+            Jegyár: 3900 Ft, 5400 Ft, 6400 Ft, 7900 Ft
+            <br>
+            <img src="img/Orfeo_Zenekar.jpg" alt="Orfeo Zenekar és Purcell Kórus" title="Orfeo Zenekar és Purcell Kórus" class="program-img" >
+          </span>
+        </div>
+        <div class="program">
+          <span>
+              <h4>Ringató</h4>
+            </span>
+            Május 02. 
+            <br>
+            Kedd 09:30 - 10:30
+            <br>
+            Miskolci Csodamalom Bábszínház
+            <br>
+            <img src="img/Ringató.jpg" alt="Ringató" title="Ringató" class="program-img" >
+          </span>
+        </div>
+        <div class="program">
+          <span>
+              <h4>ArTTér: Színezd újra!</h4>
+            </span>
+            Május 3. 
+            <br>
+            Szerda 17:00
+            <br>
+            Művészetek Háza - MÜHA Kávézó
+            <br>
+            Ingyenesen látogatható
+            <br>
+            <img src="img/artter.png" alt="Arttér: Színezd újra!" title="ArTTér: Színezd újra!" class="program-img" >
+          </span>
+        </div>     
+    </section>
+    <footer>
+        <h6>Szabó Doriján  Kaulics Balázs  Lapostyán Martin</h6>
+    </footer>
+</body>
+</html>

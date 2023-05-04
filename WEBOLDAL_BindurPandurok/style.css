@@ -1,0 +1,172 @@
+body{
+    background-image: url(img/miskolc-varoskep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 18px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.active{
+    color: green;
+}
+.logo{
+    width: 80px;
+    height: 50px;
+}
+section{
+    color: #fff;
+}
+.cim{
+    background-color: #333;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 4px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+h1{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    display: block;
+    margin-top: 100px;
+}
+.kepek{
+    width: 350;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+}
+.kepek:hover{
+    border: 1px solid white;
+}
+.szoveg{
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-shadow: #111;
+    inline-size: 100px;
+    background: #333;
+    padding: 0px 15px 0px 15px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.active{
+    color: #fff;
+}
+.program-img{
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 10px
+}
+.program{
+    border: 3px solid #333 ;
+    margin-left: 135px;
+    width: 380px;
+    width: 230px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: #333;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.program:hover{
+    transform: scale(1.2);
+}
+.tortenet{
+    font-size: 20px;
+    text-align: justify;
+    background: #333;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    display: block;
+    margin-bottom: 100px;
+}
+.elsokarakter{
+    font-size: 35px;
+    font-weight:bold ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+i{
+    font-size: 23px;
+}
+.contact{
+    width: 350px;
+    margin: 30 auto;
+    text-align: left;
+    padding:  20px 0;
+    background: #333;
+    margin-bottom: 150px;
+    padding: 20px 20px 20px 20px;
+}
+input,
+textarea,
+label{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #828282;
+    font-size: 18px;
+}
+input,
+textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #828282;
+}
+input{
+    padding: 5px;
+}
+textarea{
+    border: 1px solid #828282;
+    border-radius: 5px;
+}
+input[type=submit]{
+    background-color: #545557;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+input[type-submit]:hover{
+    background-color: #fff;
+    color: #545557;
+}
